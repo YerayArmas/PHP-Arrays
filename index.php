@@ -173,3 +173,17 @@ $inputArray = [10, -20, 0, 30, 40, 50];
 $resultArray = rearrangeArray($inputArray); // Re-arrange the array
 
 print_r($resultArray);
+
+
+
+	$fruits = array("apple" => 1, "banana" => 2, "orange" => 3, "mango" => 4);
+
+	foreach($fruits as $fruit){
+		 echo "The current value in array is $fruit\n";
+	}
+	
+	// But if we want to know what key we are trying to access in detail, do:
+	
+	foreach($fruits as $key => $fruit) {
+		echo "Fruit $key has a value of $fruit.\n";
+	}
